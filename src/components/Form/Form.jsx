@@ -82,6 +82,8 @@ const Form = () => {
     }, [name, birth])
     */
 
+    tg.MainButton.show();
+
     const onChangeAge = (e) => {
         setAge(e.target.value)
     }
